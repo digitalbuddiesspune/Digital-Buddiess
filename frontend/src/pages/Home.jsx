@@ -6,19 +6,31 @@ import { ArrowRight, Code, BarChart, Smartphone, Zap, Globe, MessageCircle, Plus
 // Social Media Icons as SVG Components
 const InstagramIcon = ({ className }) => (
   <svg className={className} viewBox="0 0 24 24" fill="currentColor">
-    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
   </svg>
 );
 
 const FacebookIcon = ({ className }) => (
   <svg className={className} viewBox="0 0 24 24" fill="currentColor">
-    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
   </svg>
 );
 
 const YoutubeIcon = ({ className }) => (
   <svg className={className} viewBox="0 0 24 24" fill="currentColor">
-    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+  </svg>
+);
+
+const WhatsAppIcon = ({ className }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+  </svg>
+);
+
+const TwitterIcon = ({ className }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
   </svg>
 );
 
@@ -28,8 +40,15 @@ const YoutubeIcon = ({ className }) => (
 const Preloader = ({ setLoading }) => {
   return (
     <motion.div
-      initial={{ opacity: 1 }}
-      exit={{ y: -50, opacity: 0, transition: { duration: 0.8, ease: "easeInOut" } }}
+      initial={{ opacity: 1, scale: 1 }}
+      exit={{
+        scale: 1.5,
+        opacity: 0,
+        transition: {
+          duration: 0.6,
+          ease: "easeInOut"
+        }
+      }}
       className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black text-white"
     >
       <motion.h1
@@ -40,12 +59,12 @@ const Preloader = ({ setLoading }) => {
       >
         Welcome to <span className="font-bold text-orange-500">digital buddies</span>
       </motion.h1>
-      
+
       {/* Loading Bar */}
-      <motion.div 
+      <motion.div
         className="mt-8 h-1 bg-gray-800 rounded-full w-48 overflow-hidden"
       >
-        <motion.div 
+        <motion.div
           className="h-full bg-orange-500"
           initial={{ width: 0 }}
           animate={{ width: "100%" }}
@@ -60,7 +79,7 @@ const Preloader = ({ setLoading }) => {
 // 2. Video Background Component
 const VideoBackground = () => {
   const videoUrl = 'https://res.cloudinary.com/dvkxgrcbv/video/upload/v1764925425/Digital_Agency_Showreel_2021_digitalmarketingagency_airpopmedia_socialmediamarketing_vthfhy.mp4';
-  
+
   return (
     <div className="absolute inset-0 w-full h-full overflow-hidden z-0">
       <video
@@ -105,98 +124,33 @@ const ServicesAccordion = () => {
     {
       title: "Digital Marketing Services",
       description: "Elevate your online presence with tailored digital marketing strategies",
-      content: [
-        "Search Engine Optimization (SEO)",
-        "Pay-Per-Click Advertising (PPC)",
-        "Social Media Marketing",
-        "Email Marketing Campaigns",
-        "Content Marketing",
-        "Analytics & Reporting"
-      ]
+      videoUrl : 'https://res.cloudinary.com/dvkxgrcbv/video/upload/v1765014196/Digital_Buddiesss_2_jnxyyn.mp4'
     },
-    {
-      title: "Creative Services",
-      description: "Bringing your brand to life with innovative and captivating visuals.",
-      content: [
-        "Graphic Design",
-        "Logo & Brand Identity",
-        "Print Design",
-        "Illustration",
-        "Photography",
-        "Video Production"
-      ]
-    },
+    
     {
       title: "Web & App Development",
       description: "Building responsive websites and apps that drive engagement and growth.",
-      content: [
-        "Custom Website Development",
-        "Mobile App Development",
-        "E-commerce Solutions",
-        "Web Application Development",
-        "API Integration",
-        "Maintenance & Support"
-      ]
+      videoUrl : 'https://res.cloudinary.com/dvkxgrcbv/video/upload/v1765014196/Digital_Buddiesss_2_jnxyyn.mp4'
     },
     {
       title: "Advertising Services",
       description: "Maximize your reach with data-driven advertising campaigns",
-      content: [
-        "Google Ads Management",
-        "Social Media Advertising",
-        "Display Advertising",
-        "Video Advertising",
-        "Retargeting Campaigns",
-        "Campaign Optimization"
-      ]
+      videoUrl : 'https://res.cloudinary.com/dvkxgrcbv/video/upload/v1765014196/Digital_Buddiesss_2_jnxyyn.mp4'
     },
     {
       title: "Branding Services",
       description: "Crafting unique brand identities that stand out in the market.",
-      content: [
-        "Brand Strategy",
-        "Logo Design",
-        "Brand Guidelines",
-        "Visual Identity Systems",
-        "Rebranding Services",
-        "Brand Positioning"
-      ]
-    },
-    {
-      title: "Additional Services",
-      description: "Comprehensive solutions to meet all your digital needs.",
-      content: [
-        "Consulting Services",
-        "Digital Strategy",
-        "Market Research",
-        "Competitor Analysis",
-        "Technical Support",
-        "Training & Workshops"
-      ]
+     videoUrl : 'https://res.cloudinary.com/dvkxgrcbv/video/upload/v1765014196/Digital_Buddiesss_2_jnxyyn.mp4'
     },
     {
       title: "Ecommerce Marketing",
       description: "Boost your online store's sales with proven ecommerce marketing tactics.",
-      content: [
-        "E-commerce Strategy",
-        "Product Listing Optimization",
-        "Shopping Campaigns",
-        "Conversion Rate Optimization",
-        "Abandoned Cart Recovery",
-        "Marketplace Management"
-      ]
+      videoUrl : 'https://res.cloudinary.com/dvkxgrcbv/video/upload/v1765014196/Digital_Buddiesss_2_jnxyyn.mp4'
     },
     {
       title: "Lead Generation",
       description: "Driving qualified leads to fuel your business growth.",
-      content: [
-        "Lead Generation Strategy",
-        "Landing Page Optimization",
-        "Lead Nurturing Campaigns",
-        "CRM Integration",
-        "Lead Qualification",
-        "Conversion Tracking"
-      ]
+      videoUrl : 'https://res.cloudinary.com/dvkxgrcbv/video/upload/v1765014196/Digital_Buddiesss_2_jnxyyn.mp4'
     }
   ];
 
@@ -207,209 +161,213 @@ const ServicesAccordion = () => {
   return (
     <section className="py-20 bg-[#F5F5F0]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-12 text-center">
+        <motion.div
+          className="mb-12 text-center"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8 }}
+        >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">What We Offer</h2>
-        </div>
+        </motion.div>
+      </div>
 
-        <div className="space-y-4">
-          {services.map((service, index) => (
-            <motion.div
-              key={index}
-              className="bg-orange-500 rounded-lg overflow-hidden shadow-lg"
-              initial={false}
+      <div className="space-y-4">
+        {services.map((service, index) => (
+          <div key={index} className="w-full">
+            <div
+              className="relative w-full overflow-hidden shadow-lg"
+              
             >
+              {/* Video Background */}
+              <div className="absolute inset-0 w-full h-full z-0" style={{ aspectRatio: '32/9' }}>
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover"
+                >
+                  <source src={service.videoUrl} type="video/mp4" />
+                </video>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent z-0"></div>
+              </div>
+              
               <button
-                onClick={() => toggleAccordion(index)}
-                className="w-full px-8 py-6 flex items-center justify-between text-left hover:bg-orange-600 transition-colors"
+                className="w-full px-8 py-20 relative flex items-center justify-between text-left transition-colors relative z-10 hover:bg-black/10"
               >
                 <div className="flex-1">
-                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
+                  <h3 className="text-xl md:text-2xl font-bold mb-2 text-white">
                     {service.title}
                   </h3>
-                  <p className="text-sm md:text-base text-gray-800 font-normal">
+                  <p className="text-sm md:text-base font-normal text-white/90">
                     {service.description}
                   </p>
                 </div>
-                <div className="flex-shrink-0 ml-4">
-                  <AnimatePresence mode="wait">
-                    {openIndex === index ? (
-                      <motion.div
-                        key="minus"
-                        initial={{ rotate: -90, opacity: 0 }}
-                        animate={{ rotate: 0, opacity: 1 }}
-                        exit={{ rotate: 90, opacity: 0 }}
-                        transition={{ duration: 0.2 }}
-                      >
-                        <Minus size={32} className="text-gray-900" strokeWidth={3.5} />
-                      </motion.div>
-                    ) : (
-                      <motion.div
-                        key="plus"
-                        initial={{ rotate: 90, opacity: 0 }}
-                        animate={{ rotate: 0, opacity: 1 }}
-                        exit={{ rotate: -90, opacity: 0 }}
-                        transition={{ duration: 0.2 }}
-                      >
-                        <Plus size={32} className="text-gray-900" strokeWidth={3.5} />
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </div>
               </button>
-
-              <div className="px-8 pb-2">
-                <div className="h-px bg-gray-900/20"></div>
-              </div>
-
-              <AnimatePresence>
-                {openIndex === index && (
-                  <motion.div
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: 'auto', opacity: 1 }}
-                    exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.3, ease: "easeInOut" }}
-                    className="overflow-hidden bg-white"
-                  >
-                    <div className="px-8 pb-6 pt-4">
-                      <ul className="space-y-3">
-                        {service.content.map((item, itemIndex) => (
-                          <motion.li
-                            key={itemIndex}
-                            initial={{ x: -20, opacity: 0 }}
-                            animate={{ x: 0, opacity: 1 }}
-                            transition={{ delay: itemIndex * 0.05 }}
-                            className="text-gray-900 text-sm md:text-base flex items-center font-medium"
-                          >
-                            <span className="w-2 h-2 bg-gray-900 rounded-full mr-3"></span>
-                            {item}
-                          </motion.li>
-                        ))}
-                      </ul>
-                    </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </motion.div>
-          ))}
-        </div>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );
 };
 
-// 4. Contact Us Section with Floating Social Icons
+// 4. Contact Us Section with Circular Video Frame
 const ContactUsSection = () => {
   const navigate = useNavigate();
+  const videoUrl = 'https://res.cloudinary.com/dvkxgrcbv/video/upload/v1765003085/AD_Video_Digital_Buddiess_1_b4jlye.mp4';
 
   const handleContactClick = () => {
     navigate('/contact-us');
   };
 
   return (
-    <section className="relative py-20 bg-black overflow-hidden">
-      {/* Floating Social Media Icons */}
-      <motion.div
-        animate={{
-          y: [0, -20, 0],
-          rotate: [0, 10, -10, 0],
-        }}
-        transition={{
-          duration: 5,
-          repeat: Infinity,
-          ease: "easeInOut",
-          delay: 0,
-        }}
-        className="absolute left-10 top-1/4 hidden md:block"
-      >
+    <section className="relative py-32 overflow-hidden radial-rings-bg">
+
+      {/* Floating Social Icons */}
+      <div className="absolute left-10 top-1/4 hidden md:block z-20">
         <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg">
           <InstagramIcon className="w-10 h-10 text-pink-600" />
         </div>
-      </motion.div>
+      </div>
 
-      <motion.div
-        animate={{
-          y: [0, -15, 0],
-          rotate: [0, -10, 10, 0],
-        }}
-        transition={{
-          duration: 6,
-          repeat: Infinity,
-          ease: "easeInOut",
-          delay: 1.5,
-        }}
-        className="absolute right-20 top-1/3 hidden md:block"
-      >
+      <div className="absolute right-20 top-1/3 hidden md:block z-20">
         <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg">
           <FacebookIcon className="w-10 h-10 text-blue-600" />
         </div>
-      </motion.div>
+      </div>
 
-      <motion.div
-        animate={{
-          y: [0, -25, 0],
-          rotate: [0, 15, -15, 0],
-        }}
-        transition={{
-          duration: 7,
-          repeat: Infinity,
-          ease: "easeInOut",
-          delay: 0.8,
-        }}
-        className="absolute left-1/4 bottom-1/4 hidden md:block"
-      >
+      <div className="absolute left-1/4 bottom-1/4 hidden md:block z-20">
         <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg">
           <YoutubeIcon className="w-10 h-10 text-red-600" />
         </div>
-      </motion.div>
+      </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        {/* Main Heading - DIGITAL */}
-        <motion.h2
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="text-7xl md:text-9xl font-bold mb-6"
-          style={{
-            color: '#ea580c',
-            textShadow: '4px 4px 0px rgba(234, 88, 12, 0.3), 8px 8px 0px rgba(234, 88, 12, 0.2)',
-            letterSpacing: '0.05em'
-          }}
-        >
-          DIGITAL
-        </motion.h2>
+      <div className="absolute right-1/4 top-1/2 hidden md:block z-20">
+        <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg">
+          <WhatsAppIcon className="w-10 h-10 text-green-600" />
+        </div>
+      </div>
 
-        {/* Subheading - BUDDIES */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-2xl md:text-3xl text-white mb-12 font-semibold tracking-wider"
-        >
-          BUDDIES
-        </motion.p>
+      <div className="absolute left-1/3 top-1/3 hidden md:block z-20">
+        <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg">
+          <TwitterIcon className="w-10 h-10 text-blue-400" />
+        </div>
+      </div>
 
-        {/* CTA Button */}
-        <motion.button
-          onClick={handleContactClick}
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          transition={{ duration: 0.3 }}
-          className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-12 rounded-full text-lg shadow-2xl transition-all duration-300"
-          style={{
-            boxShadow: '0 10px 30px rgba(234, 88, 12, 0.4)'
-          }}
-        >
-          Contact Us
-        </motion.button>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="flex flex-col items-center">
+
+          {/* DIGITAL */}
+          <motion.div 
+            className="mb-8"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            <h2 className="text-5xl md:text-8xl font-bold text-orange-500 tracking-tight">
+              DIGITAL
+            </h2>
+          </motion.div>
+
+          {/* BUDDIES */}
+          <motion.div 
+            className="mb-8"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+          >
+            <p className="text-2xl md:text-3xl font-bold font-cursive1 text-white tracking-wider">
+              BUDDIES
+            </p>
+          </motion.div>
+
+          {/* Circular Video */}
+          <motion.div 
+            className="relative mb-12"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+          >
+            <div className="relative w-[500px] h-[500px] md:w-[600px] md:h-[600px] rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
+
+              <div className="absolute inset-0 rounded-full overflow-hidden">
+                <video autoPlay loop muted playsInline className="w-full h-full object-cover">
+                  <source src={videoUrl} type="video/mp4" />
+                </video>
+              </div>
+
+              <motion.div 
+                className="absolute inset-0 flex flex-col items-center justify-center px-8 text-center z-10 bg-black/20"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
+              >
+                <div className="space-y-2">
+                  <motion.p 
+                    className="text-white text-sm md:text-base font-bold uppercase tracking-wide"
+                    initial={{ opacity: 0, y: 10 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6, delay: 0.7 }}
+                  >
+                    HIRE THE TEAM
+                  </motion.p>
+                  <motion.p 
+                    className="text-white text-sm md:text-base font-bold uppercase tracking-wide"
+                    initial={{ opacity: 0, y: 10 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6, delay: 0.8 }}
+                  >
+                    THAT BUILT SOME OF
+                  </motion.p>
+                  <motion.p 
+                    className="text-white text-sm md:text-base font-bold uppercase tracking-wide"
+                    initial={{ opacity: 0, y: 10 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6, delay: 0.9 }}
+                  >
+                    THE MOST ICONIC BRANDS ON
+                  </motion.p>
+                  <motion.p 
+                    className="text-yellow-400 text-2xl md:text-3xl font-bold uppercase tracking-wide mt-2"
+                    initial={{ opacity: 0, y: 10 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6, delay: 1.0 }}
+                  >
+                    SOCIAL MEDIA
+                  </motion.p>
+                </div>
+              </motion.div>
+            </div>
+          </motion.div>
+
+          {/* Button */}
+          <motion.button
+            onClick={handleContactClick}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
+            className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-12 rounded-full text-lg shadow-2xl transition-all duration-300"
+            style={{ boxShadow: '0 10px 30px rgba(234, 88, 12, 0.4)' }}
+          >
+            Contact Us
+          </motion.button>
+        </div>
       </div>
     </section>
   );
 };
+
 
 export default function LandingPage() {
   const [loading, setLoading] = useState(true);
@@ -439,12 +397,12 @@ export default function LandingPage() {
           <section className="relative flex items-center justify-start px-4 sm:px-6 lg:px-8 py-20 md:py-32 min-h-screen overflow-hidden">
             {/* Video Background */}
             <VideoBackground />
-            
+
             <div className="max-w-7xl mx-auto w-full relative z-10">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 {/* Left Side - Text Content */}
                 <div className="flex flex-col items-start justify-center space-y-6 z-10 relative">
-                  <motion.h1 
+                  <motion.h1
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.2 }}
@@ -454,12 +412,10 @@ export default function LandingPage() {
                     <span className="block">for <span className="font-serif italic font-light">your business.</span></span>
                   </motion.h1>
 
-                  <motion.button 
-                    initial={{ scale: 0.9, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
+                  <motion.button
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
                     transition={{ delay: 0.4 }}
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
                     className="flex items-center gap-4 bg-white text-black pl-8 pr-2 py-2 rounded-full text-lg shadow-xl group mt-4"
                   >
                     Get Started Now
@@ -497,7 +453,7 @@ export default function LandingPage() {
                   { icon: <Smartphone size={32} />, title: "App Design", desc: "Intuitive mobile experiences for iOS and Android that users fall in love with." },
                   { icon: <BarChart size={32} />, title: "Digital Marketing", desc: "Data-driven strategies to increase your ROI and market presence." },
                 ].map((item, index) => (
-                  <motion.div 
+                  <motion.div
                     key={index}
                     whileHover={{ y: -10 }}
                     className="p-8 bg-gray-50 rounded-3xl hover:bg-orange-50 transition-colors cursor-pointer group"
@@ -537,27 +493,27 @@ export default function LandingPage() {
                   ))}
                 </div>
               </div>
-              
+
               <div className="relative">
                 <div className="grid grid-cols-2 gap-4">
-                   <div className="space-y-4 translate-y-8">
-                      <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-                        <Code className="text-orange-500 mb-2" />
-                        <div className="font-bold text-2xl">150+</div>
-                        <div className="text-sm text-gray-500">Projects Done</div>
-                      </div>
-                      <div className="bg-gray-800 p-6 rounded-2xl border border-gray-700">
-                        <MessageCircle className="text-blue-400 mb-2" />
-                        <div className="font-bold text-lg">Instant Comms</div>
-                      </div>
-                   </div>
-                   <div className="space-y-4">
-                      <div className="bg-gray-800 p-6 rounded-2xl border border-gray-700 h-32"></div>
-                      <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-                         <div className="font-bold text-2xl">98%</div>
-                         <div className="text-sm text-gray-500">Client Satisfaction</div>
-                      </div>
-                   </div>
+                  <div className="space-y-4 translate-y-8">
+                    <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                      <Code className="text-orange-500 mb-2" />
+                      <div className="font-bold text-2xl">150+</div>
+                      <div className="text-sm text-gray-500">Projects Done</div>
+                    </div>
+                    <div className="bg-gray-800 p-6 rounded-2xl border border-gray-700">
+                      <MessageCircle className="text-blue-400 mb-2" />
+                      <div className="font-bold text-lg">Instant Comms</div>
+                    </div>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="bg-gray-800 p-6 rounded-2xl border border-gray-700 h-32"></div>
+                    <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
+                      <div className="font-bold text-2xl">98%</div>
+                      <div className="text-sm text-gray-500">Client Satisfaction</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
